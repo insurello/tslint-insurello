@@ -1,0 +1,19 @@
+{
+  "name": "tslint-insurello",
+  "version": "1.0.0",
+  "description": "Code style rules for tslint.",
+  "main": "tslint-insurello.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/insurello/tslint-insurello.git"
+  },
+  "keywords": [
+    "tslint"
+  ],
+  "author": "Niklas Holmgren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/insurello/tslint-insurello/issues"
+  },
+  "homepage": "https://github.com/insurello/tslint-insurello#readme"
+}
