@@ -4,6 +4,7 @@
     ],
     "defaultSeverity": "error",
     "rules": {
+      "arrow-parens": false,
       "max-file-line-count": [true, 300],
       "max-line-length": [true, 80],
       "cyclomatic-complexity": [true, 20],
