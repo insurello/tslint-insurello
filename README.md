@@ -1,16 +1,16 @@
 # Purpose
 
-This package contains a set of tslint rules that enforces a consistent code style in all Typescript projects.
+This package contains a set of TSLint rules that enforces a consistent code style in all TypeScript projects.
 
 # Usage
 
 Install using npm to your devDependencies:
 
 ```
-npm install --save-dev https://github.com/insurello/tslint-insurello
+npm install --save-dev insurello/tslint-insurello#2.0.0
 ```
 
-Configure tslint to use `tslint-insurello` by adding it to your `tslint.json`:
+Configure TSLint to use `tslint-insurello` by adding it to your `tslint.json`:
 
 ```javascript
 {
