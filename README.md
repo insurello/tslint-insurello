@@ -20,3 +20,5 @@ Configure tslint to use `tslint-insurello` by adding it to your `tslint.json`:
    }
 }
 ```
+
+Default serverity level is warning, to force error set the enviroment variable `CI`.
