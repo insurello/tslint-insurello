@@ -1,6 +1,6 @@
 {
   "name": "tslint-insurello",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Code style rules for tslint.",
   "main": "tslint-insurello.json",
   "repository": {
@@ -10,10 +10,13 @@
   "keywords": [
     "tslint"
   ],
-  "author": "Niklas Holmgren",
-  "license": "ISC",
+  "author": "Insurello AB",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/insurello/tslint-insurello/issues"
   },
-  "homepage": "https://github.com/insurello/tslint-insurello#readme"
+  "homepage": "https://github.com/insurello/tslint-insurello#readme",
+  "devDependencies": {
+    "tslint-config-prettier": "^1.18.0"
+  }
 }
