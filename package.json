@@ -1,7 +1,7 @@
 {
   "name": "tslint-insurello",
   "version": "2.0.0",
-  "description": "Code style rules for tslint.",
+  "description": "Code style rules for TSLint",
   "main": "tslint-insurello.json",
   "repository": {
     "type": "git",
@@ -16,7 +16,8 @@
     "url": "https://github.com/insurello/tslint-insurello/issues"
   },
   "homepage": "https://github.com/insurello/tslint-insurello#readme",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "tslint-config-prettier": "^1.18.0"
   }
 }
