@@ -13,6 +13,7 @@ module.exports = {
         "allow-pascal-case"
       ]
     },
-    "no-var-requires": false
+    "no-var-requires": false,
+    "max-classes-per-file": false
   }
 };
