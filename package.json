@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/insurello/tslint-insurello/issues"
   },
-  "homepage": "https://github.com/insurello/tslint-insurello#readme"
+  "homepage": "https://github.com/insurello/tslint-insurello#readme",
+  "devDependencies": {
+    "tslint-config-prettier": "^1.18.0"
+  }
 }

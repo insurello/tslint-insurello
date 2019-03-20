@@ -1,54 +1,18 @@
 {
-    "extends": [
-        "tslint:recommended"
-    ],
-    "defaultSeverity": "error",
-    "rules": {
-      "arrow-parens": false,
-      "max-file-line-count": [true, 300],
-      "max-line-length": [true, 80],
-      "cyclomatic-complexity": [true, 20],
-      "max-classes-per-file": [true, 1],
-      "indent": [true, "spaces", 2],
-      "eofline": true,
-      "encoding": true,
-      "linebreak-style": [true, "LF"],
-      "trailing-comma": [
-        true,
-        {
-          "multiline": {
-            "objects": "never",
-            "arrays": "never",
-            "functions": "never",
-            "typeLiterals": "never"
-          }
-        }
-      ],
-      "import-spacing": true,
-      "no-consecutive-blank-lines": [true, 2],
-      "no-irregular-whitespace": true,
-      "no-trailing-whitespace": true,
-      "semicolon": {
-        "options": [
-          "always",
-          "ignore-interfaces",
-          "ignore-bound-class-methods"
-        ]
-      },
-      "variable-name": {
-        "options": [
-            "ban-keywords",
-            "check-format",
-            "allow-leading-underscore",
-            "allow-pascal-case"
-        ]
-      },
-      "object-literal-key-quotes": [true, "as-needed"],
-      "interface-name": [true, "never-prefix"],
-
-
-      "only-arrow-functions": false,
-      "object-literal-sort-keys": false,
-      "no-var-requires": false
-    }
+  "extends": ["tslint:latest", "tslint-config-prettier"],
+  "defaultSeverity": "warning",
+  "rules": {
+    "interface-name": [true, "never-prefix"],
+    "interface-over-type-literal": false,
+    "object-literal-sort-keys": false,
+    "variable-name": {
+      "options": [
+        "ban-keywords",
+        "check-format",
+        "allow-leading-underscore",
+        "allow-pascal-case"
+      ]
+    },
+    "no-var-requires": false
+  }
 }
