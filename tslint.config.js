@@ -14,6 +14,7 @@ module.exports = {
       ]
     },
     "no-var-requires": false,
-    "max-classes-per-file": false
+    "max-classes-per-file": false,
+    "no-implicit-dependencies": [true, "dev"]
   }
 };
