@@ -15,6 +15,7 @@ module.exports = {
     },
     "no-var-requires": false,
     "max-classes-per-file": false,
-    "no-implicit-dependencies": [true, "dev"]
+    "no-implicit-dependencies": [true, "dev"],
+    "no-submodule-imports": [true, "fp-ts"]
   }
 };
