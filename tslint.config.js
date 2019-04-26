@@ -16,6 +16,7 @@ module.exports = {
     "no-var-requires": false,
     "max-classes-per-file": false,
     "no-implicit-dependencies": [true, "dev"],
-    "no-submodule-imports": [true, "fp-ts", "io-ts"]
+    "no-submodule-imports": [true, "fp-ts", "io-ts"],
+    "import-blacklist": [true, "fp-ts/lib/Trace", { "fp-ts": ["trace"] }]
   }
 };
