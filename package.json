@@ -1,6 +1,6 @@
 {
   "name": "tslint-insurello",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Code style rules for TSLint",
   "main": "tslint-insurello.json",
   "repository": {
