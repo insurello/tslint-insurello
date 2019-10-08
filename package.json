@@ -18,6 +18,7 @@
   "homepage": "https://github.com/insurello/tslint-insurello#readme",
   "devDependencies": {},
   "dependencies": {
+    "tslint-config-security": "^1.16.0",
     "tslint-config-prettier": "^1.18.0"
   }
 }

@@ -1,5 +1,9 @@
 module.exports = {
-  extends: ["tslint:latest", "tslint-config-prettier"],
+  extends: [
+    "tslint:latest",
+    "tslint-config-prettier",
+    "tslint-config-security"
+  ],
   defaultSeverity: process.env.CI ? "error" : "warning",
   rules: {
     "interface-name": [true, "never-prefix"],
