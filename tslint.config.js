@@ -1,9 +1,18 @@
 module.exports = {
-  extends: ["tslint:latest", "tslint-config-prettier"],
   defaultSeverity: process.env.CI ? "error" : "warning",
+  extends: [
+    "tslint:latest",
+    "tslint-config-prettier",
+    "tslint-config-security"
+  ],
   rules: {
+    "import-blacklist": [true, "fp-ts/lib/Trace", { "fp-ts": ["trace"] }],
     "interface-name": [true, "never-prefix"],
     "interface-over-type-literal": false,
+    "max-classes-per-file": false,
+    "no-implicit-dependencies": [true, "dev"],
+    "no-submodule-imports": [true, "fp-ts", "io-ts", "io-ts-types"],
+    "no-var-requires": false,
     "object-literal-sort-keys": false,
     "variable-name": {
       options: [
@@ -12,11 +21,6 @@ module.exports = {
         "allow-leading-underscore",
         "allow-pascal-case"
       ]
-    },
-    "no-var-requires": false,
-    "max-classes-per-file": false,
-    "no-implicit-dependencies": [true, "dev"],
-    "no-submodule-imports": [true, "fp-ts", "io-ts", "io-ts-types"],
-    "import-blacklist": [true, "fp-ts/lib/Trace", { "fp-ts": ["trace"] }]
+    }
   }
 };
