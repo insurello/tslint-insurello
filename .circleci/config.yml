@@ -1,0 +1,10 @@
+version: 2.1
+
+jobs:
+  build:
+    working_directory: ~/insurello
+    steps:
+      - checkout
+      - run:
+          name: Build
+          command: "npm run validate"
