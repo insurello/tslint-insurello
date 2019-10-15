@@ -11,7 +11,7 @@ module.exports = {
     "interface-over-type-literal": false,
     "max-classes-per-file": false,
     "no-implicit-dependencies": [true, "dev"],
-    "no-submodule-imports": [true, "fp-ts", "io-ts", "io-ts-types"],
+    "no-submodule-imports": false,
     "no-var-requires": false,
     "object-literal-sort-keys": false,
     "variable-name": {
