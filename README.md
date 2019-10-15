@@ -7,7 +7,7 @@ This package contains a set of TSLint rules that enforces a consistent code styl
 Install using npm to your devDependencies:
 
 ```
-npm install --save-dev insurello/tslint-insurello#v2.1.0
+npm install --save-dev insurello/tslint-insurello#v2.2.0
 ```
 
 Configure TSLint to use `tslint-insurello` by adding it to your `tslint.json`:
