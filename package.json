@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/insurello/tslint-insurello#readme",
   "devDependencies": {
-    "tslint": "^5.20.0",
-    "typescript": "^3.6.3"
+    "tslint": "^5.20.1",
+    "typescript": "^3.8.3"
   },
   "dependencies": {
     "tslint-config-security": "^1.16.0",
