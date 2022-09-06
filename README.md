@@ -1,3 +1,4 @@
+# This repo is no longer in use and has been archived
 # Purpose
 
 This package contains a set of TSLint rules that enforces a consistent code style in all TypeScript projects.
